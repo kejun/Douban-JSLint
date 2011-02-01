@@ -12,6 +12,7 @@ Douban-JSLint
 ------
 
   douban-jslint *.js
+
   douban-jslint file1.js file2.js
 
 
