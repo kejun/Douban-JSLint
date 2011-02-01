@@ -1,0 +1,12 @@
+{ 
+"name" : "douban-jslint",
+"version" : "0.0.1",
+"engines" : { "node" : ">=0.1.97" },
+"author" : "Douglas Crockford <douglas@crockford.com>",
+"contributors" :
+[ 
+"kejun <listenpro@gmail.com>",
+"Marcel Eichner <love@ephigenia.de>"
+],
+"bin" : { "douban-jslint" : "./bin/jslint.js" }
+}
