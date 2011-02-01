@@ -24,17 +24,19 @@ var app = function() {
            "dui",
            "Douban",
            "Do",
-					 // Native
-					 "top",
-					 "self",
-					 "parent",
-					 "window",
-					 "document",
-					 "navigator",
-					 "alert",
-					 "setTimeout",
-					 "setInterval",
-					 "console",
+           // Native
+           "top",
+           "self",
+           "parent",
+           "window",
+           "document",
+           "navigator",
+           "alert",
+           "setTimeout",
+           "clearTimeout",
+           "setInterval",
+           "clearInterval",
+           "console",
            // CommonJS
            "exports",
            // YUI
@@ -114,7 +116,7 @@ var app = function() {
                 console.error(showErrors(filename, errors) + '\n');
             } else {
                 console.log('-----------------------------------\nGood! 0 error');
-						}
+                        }
         }
         return true;
     };
