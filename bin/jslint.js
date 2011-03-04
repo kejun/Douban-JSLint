@@ -29,6 +29,7 @@ var app = function() {
            "self",
            "parent",
            "window",
+           "screen",
            "document",
            "navigator",
            "alert",
